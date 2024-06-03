@@ -1,3 +1,11 @@
+/*
+ *  fftsetup.h
+ *  Autotalent
+ *
+ *  Created by Oli Larkin on 10/02/2010.
+ *  Copyright 2010 __MyCompanyName__. All rights reserved.
+ *
+ */
 
 #include "mayer_fft.h"
 
@@ -96,4 +104,3 @@ void fft_inverse(fft_vars* membvars, float* input_re, float* input_im, float* ou
         output[ti] = membvars->fft_data[ti];
     }
 }
-
